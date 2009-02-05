@@ -138,7 +138,7 @@ namespace TALlib.TAL.Comms
 
 
 
-        //Get the first locale mentioned in the locale.xml file. 
+        //Get the first locale mentioned in the locale.xml file.
         //This works well for users who are only permed for one or two locales (i.e. most users). 
         //However, users who are permed for many locales will want to specify the locale
         //string manually, since the first locale might not be the best.  Therefore, their user
