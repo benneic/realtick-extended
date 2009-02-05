@@ -43,10 +43,27 @@
     </Reference>
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
+    <Reference Include="TalTrade.Toolkit, Version=0.9.40.0, Culture=neutral, PublicKeyToken=cb44bdaa5e4ab9d5">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\TAL\Assembly\TalTrade.Toolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="TalTrade.Toolkit.ClientAdapter, Version=0.9.40.0, Culture=neutral, PublicKeyToken=cb44bdaa5e4ab9d5">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\TAL\Assembly\TalTrade.Toolkit.ClientAdapter.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TAL\Comms\TALComms.cs" />
+    <Compile Include="TAL\Trans\TALTrans.cs" />
+    <Compile Include="TAL\Comms\UserInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Net\" />
+    <Folder Include="SQL\" />
+    <Folder Include="TAL\Orders\" />
+    <Folder Include="TAL\Prices\" />
+    <Folder Include="TAL\Structure\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
